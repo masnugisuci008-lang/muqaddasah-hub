@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muqaddasahteknologiya.biz.id/sitemap.xml
