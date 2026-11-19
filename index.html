@@ -160,6 +160,11 @@
   footer p{font-size:.82rem;color:var(--muted)}
   footer .handle{margin-top:14px;font-family:ui-monospace,Menlo,monospace;color:var(--gold-l);letter-spacing:.08em}
 
+  .social{margin:26px 0 0;display:flex;justify-content:center}
+  .social a{display:inline-flex;align-items:center;gap:10px;padding:12px 24px;border-radius:99px;border:1px solid var(--line);background:rgba(4,16,13,.65);color:var(--text);text-decoration:none;font-size:.9rem;letter-spacing:.04em;transition:border-color .25s,transform .25s,box-shadow .25s}
+  .social a:hover,.social a:focus-visible{border-color:var(--gold-l);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.4)}
+  .social a b{color:var(--gold-l);font-weight:600}
+
     /* alamat di footer */
   .faddr{display:flex;flex-direction:column;align-items:center;gap:8px;margin:4px auto 22px}
   .faddr small{font-size:.66rem;letter-spacing:.34em;text-transform:uppercase;color:var(--emerald)}
@@ -211,7 +216,10 @@
    "name": "Muqaddasah Teknologiya Darussalam",
    "alternateName": "MTD",
    "url": "https://muqaddasahteknologiya.biz.id/",
-   "logo": "https://muqaddasahteknologiya.biz.id/favicon.png"
+   "logo": "https://muqaddasahteknologiya.biz.id/favicon.png",
+   "sameAs": [
+    "https://bsky.app/profile/muqadteknologiya.bsky.social"
+   ]
   },
   {
    "@type": "WebSite",
@@ -366,6 +374,7 @@
   </div>
   <p data-en="Technology that serves people and the planet." data-id="Teknologi yang melayani manusia dan bumi.">Technology that serves people and the planet.</p>
   <p class="handle">@muqad.ten &nbsp;·&nbsp; $muqad.ten</p>
+  <div class="social"><a href="https://bsky.app/profile/muqadteknologiya.bsky.social" target="_blank" rel="noopener me"><span data-en="Follow us on" data-id="Ikuti kami di">Follow us on</span> <b>Bluesky</b> <i style="font-style:normal">↗</i></a></div>
   <p style="margin-top:22px;opacity:.6">© <span id="yr"></span> Muqaddasah Teknologiya Darussalam</p>
 </footer>
 
